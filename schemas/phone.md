@@ -1,23 +1,26 @@
 ---
-title: "Phone"
-description: "description"
+title: Phone
+description: description
 ---
 
-### PhoneCredentialV1
+# phone
+
+## PhoneCredentialV1
 
 `PhoneCredentialV1` is a type extension of credential subject into VC.
 
-### PhonePerson
+## PhonePerson
+
 Phone number of a person.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `PhonePerson` | true ||
-| telephone | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `PhonePerson` | true |  |
+| telephone | `string` | ture |  |
 
-### Example of PhoneCredentialV1
+## Example of PhoneCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/phone",
@@ -42,17 +45,18 @@ Phone number of a person.
 }
 ```
 
-### PhoneOrganization
+## PhoneOrganization
+
 Phone number of an organization.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `PhoneOrganization` | true ||
-| telephone | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `PhoneOrganization` | true |  |
+| telephone | `string` | ture |  |
 
-### Example of PhoneCredentialV1
+## Example of PhoneCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/phone",
@@ -77,9 +81,9 @@ Phone number of an organization.
 }
 ```
 
-### phone.jsonld
+## phone.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -105,3 +109,4 @@ Phone number of an organization.
     }
 }
 ```
+

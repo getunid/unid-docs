@@ -14,7 +14,7 @@ cd document-site
 gatsby develop
 ```
 
-Your new site will be up at http://localhost:8000
+Your new site will be up at [http://localhost:8000](http://localhost:8000)
 
 Try changing the logo by editing the file at `src/gatsby-theme-document/logo.mdx`.
 
@@ -68,7 +68,7 @@ The social media icons in the header can be edited in the `gatsby-config.js` fil
 
 Document uses React Helmet to add meta tags to the website's `<head>` tag. When adding/editing a file in the content folder, be sure to include the Title and Description in the frontmatter. These are automatically used to generate the title and description meta tags for the page.
 
-```md
+```text
 ---
 title: "Document by Code Bushi"
 description: "This is the meta description"
@@ -76,3 +76,4 @@ description: "This is the meta description"
 ```
 
 There is also an image at `src/site-image.jpg` which is used for the Open Graph image tag, as well as the Twitter card. Another image at `src/site-icon.png` is used by the [gatsby-plugin-manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/) to generate a Favicon and other device icons.
+

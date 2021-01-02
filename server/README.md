@@ -11,27 +11,27 @@ UNiD Node.js SDK offers easy-to-use javascript modules for embedding identity wa
 **Prerequisites**
 
 Before we begin, make sure you have the following installed:
-- `node v13.x.x or later`
-- `npm v6.13.x or later`
+
+* `node v13.x.x or later`
+* `npm v6.13.x or later`
 
 If you don't already have an account and UNiD tenant established, head over to [here](https://docs.getunid.io), then return to this page.
 
 ### Install
 
 Add the `@unid/nodejs-sdk` dependency:
+
 ```bash
 npm install --save @unid/nodejs-sdk
 ```
 
-In UNiD, MongoDB is used as local repository (keyrings, secrets, etc) by default.
-Please install and setup MongoDB in your server environment.
-
+In UNiD, MongoDB is used as local repository \(keyrings, secrets, etc\) by default. Please install and setup MongoDB in your server environment.
 
 ### Configure
 
 After you've completed setting up a tenant and a relying party application in UNiD, UNiD will give you values: `client_id` and `client_secret`. These values are used for authorization when the RP communicates with the wallet application and SDS endpoints.
 
-```js
+```javascript
 import { UNiD } from "@unid/nodejs-sdk";
 
 Unid.init({
@@ -41,4 +41,5 @@ Unid.init({
 });
 ```
 
-Great! Now that you've completed setting up the Node SDK. You can step forward to [Generate New DID](../server/1-did-operation).
+Great! Now that you've completed setting up the Node SDK. You can step forward to [Generate New DID](https://github.com/getunid/unid-docs/tree/200b6426614a35d04f83935d75f645238a273318/server/1-did-operation/README.md).
+

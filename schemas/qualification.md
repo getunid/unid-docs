@@ -1,49 +1,51 @@
 ---
-title: "Qualification"
-description: "description"
+title: Qualification
+description: description
 ---
 
-### QualificationCredentialV1
+# qualification
+
+## QualificationCredentialV1
 
 `QualificationCredentialV1` is a type extension of credential subject into VC.
 
-### QualificationPerson
+## QualificationPerson
+
 Educational and occupational qualifications of a person.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `QualificationPerson` | true ||
-| hasCredential | `EducationalOccupationalCredential` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `QualificationPerson` | true |  |
+| hasCredential | `EducationalOccupationalCredential` | ture |  |
 
-### EducationalOccupationalCredential
+## EducationalOccupationalCredential
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `EducationalOccupationalCredential` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `EducationalOccupationalCredential` | true |  |
 | credentialCategory | `string` | ture | "degree", "certificate" |
-| educationalLevel | `string` | ture ||
-| dateCreated | `date` | ture ||
-| about | `EducationalOccupationalProgram` | ture ||
-| recognizedBy | `CollegeOrUniversity` | ture ||
+| educationalLevel | `string` | ture |  |
+| dateCreated | `date` | ture |  |
+| about | `EducationalOccupationalProgram` | ture |  |
+| recognizedBy | `CollegeOrUniversity` | ture |  |
 
-### EducationalOccupationalProgram
+## EducationalOccupationalProgram
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `EducationalOccupationalProgram` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `EducationalOccupationalProgram` | true |  |
 | name | `string` | ture | "University", "Driver's License" |
 
-### CollegeOrUniversity
+## CollegeOrUniversity
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `CollegeOrUniversity` | true ||
-| name | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `CollegeOrUniversity` | true |  |
+| name | `string` | ture |  |
 
+## Example of QualificationCredentialV1
 
-### Example of QualificationCredentialV1
-
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/qualification",
@@ -92,9 +94,9 @@ Educational and occupational qualifications of a person.
 }
 ```
 
-### qualification.jsonld
+## qualification.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -159,3 +161,4 @@ Educational and occupational qualifications of a person.
     }
 }
 ```
+

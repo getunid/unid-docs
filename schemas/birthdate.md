@@ -1,25 +1,28 @@
 ---
-title: "BirthDate"
-description: "description"
+title: BirthDate
+description: description
 ---
+
+# birthDate
 
 BirthDate of a person.
 
-### BirthDateCredentialV1
+## BirthDateCredentialV1
 
 `BirthDateCredentialV1` is a type extension of credential subject into VC.
 
-### BirthDatePerson
+## BirthDatePerson
+
 BirthDate of a person.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `BirthDatePerson` | true ||
-| birthDate | `datetime` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `BirthDatePerson` | true |  |
+| birthDate | `datetime` | ture |  |
 
-### Example of BirthDateCredentialV1
+## Example of BirthDateCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/birthDate",
@@ -44,9 +47,9 @@ BirthDate of a person.
 }
 ```
 
-### birthDate.jsonld
+## birthDate.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -71,3 +74,4 @@ BirthDate of a person.
     }
 }
 ```
+

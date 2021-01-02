@@ -1,37 +1,39 @@
 ---
-title: "Address"
-description: "description"
+title: Address
+description: description
 ---
-<!-- Link: <../../docs/resume.jsonld>; rel="alternate"; type="application/ld+json" -->
+
+# address
 
 Address of a person or organization.
 
-### AddressCredentialV1
+## AddressCredentialV1
 
 `AddressCredentialV1` is a type extension of credential subject into VC.
 
-### AddressPerson
+## AddressPerson
+
 Address of a person.
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `AddressPerson` | true ||
-| address | `PostalAddress` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `AddressPerson` | true |  |
+| address | `PostalAddress` | ture |  |
 
-### PostalAddress
+## PostalAddress
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `PostalAddress` | true ||
-| addressCountry | `string` | ture ||
-| addressLocality | `string` | true ||
-| addressRegion | `string` | true ||
-| postalCode | `string` | true ||
-| streetAddress | `string` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `PostalAddress` | true |  |
+| addressCountry | `string` | ture |  |
+| addressLocality | `string` | true |  |
+| addressRegion | `string` | true |  |
+| postalCode | `string` | true |  |
+| streetAddress | `string` | true |  |
 
-### Example of AddressCredentialV1
+## Example of AddressCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/address",
@@ -63,17 +65,18 @@ Address of a person.
 }
 ```
 
-### AddressOrganization
+## AddressOrganization
+
 Address of an organization.
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `AddressOrganization` | true ||
-| address | `PostalAddress` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `AddressOrganization` | true |  |
+| address | `PostalAddress` | ture |  |
 
-### Example of AddressCredentialV1
+## Example of AddressCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/address",
@@ -105,9 +108,9 @@ Address of an organization.
 }
 ```
 
-### address.jsonld
+## address.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -149,3 +152,4 @@ Address of an organization.
     }
 }
 ```
+

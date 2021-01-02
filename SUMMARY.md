@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Gatsby Theme Document](README.md)
 * [Introduction](introduction.md)
 * [UNiD Platform](unid-platform/README.md)
   * [UNiD SDKs](unid-platform/unid-sdk.md)
@@ -24,4 +23,3 @@
   * [birthDate](schemas/birthdate.md)
   * [contactPoint](schemas/contactpoint.md)
   * [name](schemas/name.md)
-

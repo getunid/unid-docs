@@ -1,25 +1,28 @@
 ---
-title: "Email"
-description: "description"
+title: Email
+description: description
 ---
+
+# email
 
 Email of a person or organization.
 
-### EmailCredentialV1
+## EmailCredentialV1
 
 `EmailCredentialV1` is a type extension of credential subject into VC.
 
-### EmailPerson
+## EmailPerson
+
 Email of a person.
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `EmailPerson` | true ||
-| email | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `EmailPerson` | true |  |
+| email | `string` | ture |  |
 
-### Example of EmailCredentialV1
+## Example of EmailCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/email",
@@ -44,17 +47,18 @@ Email of a person.
 }
 ```
 
-### EmailOrganization
+## EmailOrganization
+
 Email of an organization.
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `EmailOrganization` | true ||
-| email | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `EmailOrganization` | true |  |
+| email | `string` | ture |  |
 
-### Example of AddressCredentialV1
+## Example of AddressCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/email",
@@ -79,9 +83,9 @@ Email of an organization.
 }
 ```
 
-### email.jsonld
+## email.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -107,3 +111,4 @@ Email of an organization.
     }
 }
 ```
+

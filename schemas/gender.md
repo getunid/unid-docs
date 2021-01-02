@@ -1,23 +1,26 @@
 ---
-title: "Gender"
-description: "description"
+title: Gender
+description: description
 ---
 
-### GenderCredentialV1
+# gender
+
+## GenderCredentialV1
 
 `GenderCredentialV1` is a type extension of credential subject into VC.
 
-### GenderPerson
+## GenderPerson
+
 Gender of a person.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `GenderPerson` | true ||
-| gender | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `GenderPerson` | true |  |
+| gender | `string` | ture |  |
 
-### Example of GenderCredentialV1
+## Example of GenderCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/gender",
@@ -42,9 +45,9 @@ Gender of a person.
 }
 ```
 
-### gender.jsonld
+## gender.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -69,3 +72,4 @@ Gender of a person.
     }
 }
 ```
+

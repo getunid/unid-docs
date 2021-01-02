@@ -1,55 +1,58 @@
 ---
-title: "AlumniOf"
-description: "description"
+title: AlumniOf
+description: description
 ---
+
+# alumniOf
 
 Alumni of an organization.
 
-### AlumniOfCredentialV1
+## AlumniOfCredentialV1
 
 `AlumniOfCredentialV1` is a type extension of credential subject into VC.
 
-### AlumniOfOrganization
+## AlumniOfOrganization
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `AlumniOfOrganization` | true ||
-| alumniOf | `Organization` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `AlumniOfOrganization` | true |  |
+| alumniOf | `Organization` | ture |  |
 
-### Organization
+## Organization
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `Organization` | true ||
-| name | `string` | ture ||
-| employee | `Person` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `Organization` | true |  |
+| name | `string` | ture |  |
+| employee | `Person` | true |  |
 
-### Person
+## Person
+
 `hasOccupation`: The Person's occupation. For past professions, use Role for expressing dates.
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `Person` | true ||
-| hasOccupation | `Role`, `Occupation` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `Person` | true |  |
+| hasOccupation | `Role`, `Occupation` | true |  |
 
-### Occupation
-
-| Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `Occupation` | true ||
-| name | `string` | ture ||
-
-### Role
+## Occupation
 
 | Attribute | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `Role` | true ||
-| startDate | `date` | true ||
-| endDate | `date` | false ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `Occupation` | true |  |
+| name | `string` | ture |  |
 
-### Example of AlumniOfCredentialV1
+## Role
 
-```json
+| Attribute | Type | Required | Notes |
+| :--- | :--- | :--- | :--- |
+| "@type" | `Role` | true |  |
+| startDate | `date` | true |  |
+| endDate | `date` | false |  |
+
+## Example of AlumniOfCredentialV1
+
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/alumniOf",
@@ -107,9 +110,9 @@ Alumni of an organization.
 }
 ```
 
-### alumniOf.jsonld
+## alumniOf.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -176,3 +179,4 @@ Alumni of an organization.
     }
 }
 ```
+

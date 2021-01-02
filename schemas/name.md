@@ -1,25 +1,28 @@
 ---
-title: "Name"
-description: "description"
+title: Name
+description: description
 ---
 
-### NameCredentialV1
+# name
+
+## NameCredentialV1
 
 `NameCredentialV1` is a type extension of credential subject into VC.
 
-### NamePerson
+## NamePerson
+
 Name of a person.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `NamePerson` | true ||
-| name | `string` | ture ||
-| givenName | `string` | true ||
-| familyName | `string` | true ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `NamePerson` | true |  |
+| name | `string` | ture |  |
+| givenName | `string` | true |  |
+| familyName | `string` | true |  |
 
-### Example of NameCredentialV1
+## Example of NameCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/name",
@@ -46,19 +49,20 @@ Name of a person.
 }
 ```
 
-### NameOrganization
+## NameOrganization
+
 Name of an organization.
 
 | Property | Type | Required | Notes |
-| ---- | ---- | ---- | ---- |
-| "@type" | `NameOrganization` | true ||
-| name | `string` | ture ||
+| :--- | :--- | :--- | :--- |
+| "@type" | `NameOrganization` | true |  |
+| name | `string` | ture |  |
 
 // Internationalization
 
-### Example of NameCredentialV1
+## Example of NameCredentialV1
 
-```json
+```javascript
 {
     "@context": [
         "https://docs.getunid.io/docs/2020/credentials/name",
@@ -83,9 +87,9 @@ Name of an organization.
 }
 ```
 
-### name.jsonld
+## name.jsonld
 
-```json
+```javascript
 {
     "@context": {
         "@version": 1.1,
@@ -113,3 +117,4 @@ Name of an organization.
     }
 }
 ```
+

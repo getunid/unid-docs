@@ -1,9 +1,6 @@
----
-title: "Introduction"
-description: "Introduction"
----
+# Introduction
 
-### Digital Trust
+## Digital Trust
 
 Our society has been established by reducing that complexity through trust. As digital transformation accelerates in all industries, it is necessary to build solutions that enable digital trust on common standards in order to communicate smoothly online.
 
@@ -13,7 +10,7 @@ Therefore, the service providers are suffering from high operating costs such as
 
 At [UNiD](./unid), we are focused on building tools that enable to connect the world with digital trust in a decentralized manner. To achive this goal, it's important first step to establish a globally unique identity that can be controlled directly by a user without the need for centralized authorities or trusted third parties.
 
-### Decentralized Identity
+## Decentralized Identity
 
 Decentralized identity, also know as self-sovereign identity (SSI), is a digital movement that evolves digital identity on the Internet based on open web standards at organizations such as the [W3C](https://www.w3.org/), [Decentralized Identity Foundation](https://identity.foundation/), [IETF](https://ietf.org/), and [the Hyperledger Project at the Linux Foundation](https://www.hyperledger.org/). A central part of the movement is the emerging standardization around Decentralized Identifiers (DIDs) which is a new type of identifier to allow individuals to create and control their own unique identifiers.
 
@@ -26,7 +23,7 @@ Any subject (e.g., a person, organization, thing, data model, abstract entity, e
 
 [UNiD Platform](./unid) provides tools that enable fundermental capabilities such as  DID operations, VC operations, and data exchange in a secure and privacy-preserving manner.
 
-### Use Cases
+## Use Cases
 
 **Intro to a digital student wallet**
 
@@ -62,6 +59,6 @@ Our platform is composed of a collection of microservices, allowing developers t
 
 We are currently working on joint projects with leading companies in each industry to connect the world with digital trust. [Click here for more info](https://collabogate.com)
 
-### Contact
+## Contact
 
 - [Click here](https://github.com/getunid/unid-docs/issues/new/choose) for `bug report` and `feature request` regarding the contents of this document. Thanks for your feedback to help us to improve.

@@ -1,9 +1,6 @@
----
-title: "UNiD Platform"
-description: "description"
----
+# UNiD Platform
 
-### Intro to UNiD Platform
+## Intro to UNiD Platform
 
 UNiD platform provides fundermental capabilities of DID operations, VC operations, and DID communications in a secure and privacy-preserving manner. UNiD implementation is composed of a collection of microservices, allowing developers to combine pluggable and extensible modular for flexibility and freedom of choice without compromising security.
 

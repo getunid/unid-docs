@@ -1,7 +1,4 @@
----
-title: "Credential Schemas"
-description: "description"
----
+# Credential Schemas
 
 ### Verifiable Credential Data
 

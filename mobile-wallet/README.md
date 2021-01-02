@@ -1,7 +1,4 @@
----
-title: "Mobile Wallet"
-description: "description"
----
+# Mobile Wallet
 
 On this page, we get you up and running with UNiD SDK, so that it will build a wallet which provides storage of cryptographic keys, credentials, and secrets on a mobile device. At the moment, we support React Native SDK.
 

@@ -1,7 +1,4 @@
----
-title: "UNiD SDKs"
-description: "description"
----
+# UNiD SDKs
 
 ### Mobile Wallet SDKs
 UNiD SDKs offer convenient and easy-to-use javascript module for DID operations, VC operations, and DID Comm through the underlying Core APIs and Drivers. We are currently providing React Native SDKs for embedding DID and VC capabilities into a mobile agent. [Click here for more info](../../wallet).

@@ -1,7 +1,4 @@
----
-title: "UNiD Core"
-description: "description"
----
+# UNiD Core
 
 ### DID Operations
 

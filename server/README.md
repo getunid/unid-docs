@@ -1,7 +1,6 @@
----
-title: "Server Wallet"
-description: "description"
----
+# Server Wallet
+
+## Introduction
 
 On this page, we get you up and running with UNiD SDK, so that it will build a wallet which provides storage of cryptographic keys, credentials, and secrets on a cloud server. It is often implemented on an existing server to communicate with an identity wallet, such as authenticating or issuing credentials. At the moment, we support Node.js SDKs.
 

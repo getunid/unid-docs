@@ -2,7 +2,6 @@
 title: "Introduction"
 description: "Introduction"
 ---
-<SEO title="UNiD" />
 
 ### Digital Trust
 

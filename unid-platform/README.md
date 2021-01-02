@@ -9,7 +9,7 @@ UNiD platform provides fundermental capabilities of DID operations, VC operation
 
 As in the diagram below, our platform consists of three components: UNiD SDKs and Extensions, UNiD Core APIs, and UNiD Drivers on the top of UNiD Network.
 
-![UNiD Platform Map](/assets/unid-map-2020.png)
+![UNiD Platform Map](../assets/unid-map-2020.png)
 
 UNiD Network is built on the top of [Sidetree](https://identity.foundation/sidetree/spec/) that is a 2nd layer blockchain-agnostic protocol and has multiple reference implementations for various decentralized ledger systems, such as Bitcoin, Ethereum, etc.
 
@@ -35,12 +35,8 @@ UNiD network consists of primary components of a DID overlay network:
 2. The nodes in below figure, which inteact with the ledger system to anchor operations, fetch and replicate data from the CAS network, and process operations in accordance with the protocol deterministic rule set.
 3. An integrated CAS network layer the nodes use to distribute and replicate DID operation files.
 
-![UNiD Network Topology](/assets/unid-network.png)
+![UNiD Network Topology](../assets/unid-network.png)
 
 If you want to see how to operate and resolve DIDs on UNiD network, please [click here for more info](https://www.notion.so/collabogate/UNiD-Network-1113de045f2547bfb134757ce505361c).
 
 UNiD network also serves a SDS (Secure Data Storage) storing encrypted verifiable credentials and presentations in a secure and privacy-preserving manner. UNiD SDS has authentication mechanisms to verify all requests with DID signature and pre-configured tenant token and authorization mechanisms to grant access to third parties.
-
-<!--
-![UNiD SDS Example](./assets/unid-sds-example.png)
--->

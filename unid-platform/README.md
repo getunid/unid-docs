@@ -2,7 +2,7 @@
 
 ## Intro to UNiD Platform
 
-UNiD platform provides fundermental capabilities of DID operations, VC operations, and DID communications in a secure and privacy-preserving manner. UNiD implementation is composed of a collection of microservices, allowing developers to combine pluggable and extensible modular for flexibility and freedom of choice without compromising security.
+UNiD platform provides fundamental capabilities of DID operations, VC operations, and DID communications in a secure and privacy-preserving manner. UNiD implementation is composed of a collection of micro services, allowing developers to combine pluggable and extensible modular for flexibility and freedom of choice without compromising security.
 
 As in the diagram below, our platform consists of three components: UNiD SDKs and Extensions, UNiD Core APIs, and UNiD Drivers on the top of UNiD Network.
 
@@ -10,7 +10,7 @@ As in the diagram below, our platform consists of three components: UNiD SDKs an
 
 UNiD Network is built on the top of [Sidetree](https://identity.foundation/sidetree/spec/) that is a 2nd layer blockchain-agnostic protocol and has multiple reference implementations for various decentralized ledger systems, such as Bitcoin, Ethereum, etc.
 
-UNiD Drivers pre-configured integrations to our platform that support fundermental capabilities. UNiD Core are designed as a set of APIs for communicating with UNiD network and drivers and used through UNiD SDKs to easily incorporate these capabilities into your application.
+UNiD Drivers pre-configured integrations to our platform that support fundamental capabilities. UNiD Core are designed as a set of APIs for communicating with UNiD network and drivers and used through UNiD SDKs to easily incorporate these capabilities into your application.
 
 ### UNiD Core
 
@@ -29,7 +29,7 @@ The UNiD SDKs offer convenient and easy-to-access application logic to build sol
 UNiD network consists of primary components of a DID overlay network:
 
 1. The underlying ledger system that serves as the global anchoring and linear sequencing system for DID operations.
-2. The nodes in below figure, which inteact with the ledger system to anchor operations, fetch and replicate data from the CAS network, and process operations in accordance with the protocol deterministic rule set.
+2. The nodes in below figure, which interact with the ledger system to anchor operations, fetch and replicate data from the CAS network, and process operations in accordance with the protocol deterministic rule set.
 3. An integrated CAS network layer the nodes use to distribute and replicate DID operation files.
 
 ![UNiD Network Topology](../.gitbook/assets/unid-network.png)

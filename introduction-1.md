@@ -1,14 +1,14 @@
 # Introduction
 
-## Digital Identity
+## Digital Trust
 
-Digital Identity is the front door of every user interactions in digital world. As digital transformation accelerates in all industries, it is necessary to build solutions on common standards for security and privacy in order to communicate smoothly online.
+Our society has been established by reducing that complexity through trust. As digital transformation accelerates in all industries, it is necessary to build solutions that enable digital trust on common standards in order to communicate smoothly online.
 
 However, the traditional identity systems today are fragmented, insecure, and do not have sufficient functionality to verify whether the data transferred is reliable in human social activity. For example, when using digital services, we are always required to create accounts and store a small part of our digital identity in the databases of these service providers. Consequently, digital identities become fragmented and locked into numerous different databases controlled by multiple external third parties.
 
 Therefore, the service providers are suffering from high operating costs such as processing, verifying, and sharing data. Additionally, as long as they retain personal identifiable information are incredibly appealing to hackers, they must continue to pay for security and privacy protection, which have become increasingly responsible in recent year.
 
-At UNiD, we are focused on building solutions for connect the world with digital trust in a decentralized manner. To achieve this goal, it's important first step to establish a globally unique identity that can be controlled directly by a user without the need for centralized authorities or trusted third parties.
+At [UNiD](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/unid/README.md), we are focused on building tools that enable to connect the world with digital trust in a decentralized manner. To achieve this goal, it's important first step to establish a globally unique identity that can be controlled directly by a user without the need for centralized authorities or trusted third parties.
 
 ## Decentralized Identity
 
@@ -18,7 +18,7 @@ In contrast to typical, federated identifiers, DIDs have been designed so that t
 
 The roles of the core actors and the relationships between them in an ecosystem where DIDs and verifiable credentials are expected to be useful.
 
-![DID Ecosystem Overview](.gitbook/assets/did-map.png)
+![DID Ecosystem Overview](.gitbook/assets/did-map%20%282%29.png)
 
 [UNiD Platform](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/unid/README.md) provides tools that enable fundamental capabilities such as DID operations, VC operations, and data exchange in a secure and privacy-preserving manner.
 
@@ -32,7 +32,7 @@ In order to understand the roles in DID ecosystem and how to establish **digital
 
 A student can easily login to the website without any password in a secure manner. A service provider \(in this case, it may be a vendor or university\) can provide a seamlessly onboarding process to students without retaining personal data in their database.
 
-![UNiD DID Authentication](.gitbook/assets/demo-unid-login%20%281%29%20%281%29.png)
+![UNiD DID Authentication](.gitbook/assets/demo-unid-login.png)
 
 A student goes to transcript apply page and read a QR code for a request. The web application issues a transcript with the university's signature and send the credential of transcript to a student. Students can bring and present the credential to other parties as proof of his educational history.
 

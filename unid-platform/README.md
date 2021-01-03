@@ -6,7 +6,7 @@ UNiD platform provides the fundamental capabilities for DID operations, VC opera
 
 As in the diagram below, our platform consists of four components: **UNiD SDKs**, **UNiD Core**, **UNiD Drivers**, and **UNiD Network**.
 
-![UNiD Platform Map](../.gitbook/assets/unid-map-2020.png)
+![](../.gitbook/assets/unid-map-2020.png)
 
 **UNiD Network** is built on the top of [Sidetree](https://identity.foundation/sidetree/spec/) that is a 2nd layer blockchain-agnostic protocol and has multiple reference implementations for various decentralized ledger systems, such as Bitcoin, Ethereum, etc.
 
@@ -32,15 +32,7 @@ The UNiD SDKs offer convenient and easy-to-access application logic to build sol
 
 ## UNiD Network
 
-UNiD network consists of primary components of a DID overlay network:
+UNiD Network is built on the top of Sidetree that is a 2nd layer blockchain-agnostic protocol and has multiple reference implementations for various decentralized ledger systems, such as Bitcoin, Ethereum, etc.
 
-1. The underlying ledger system that serves as the global anchoring and linear sequencing system for DID operations.
-2. The nodes in below figure, which interact with the ledger system to anchor operations, fetch and replicate data from the CAS network, and process operations in accordance with the protocol deterministic rule set.
-3. An integrated CAS network layer the nodes use to distribute and replicate DID operation files.
-
-![UNiD Network Topology](../.gitbook/assets/unid-network.png)
-
-If you want to see how to operate and resolve DIDs on UNiD network, please [click here for more info](https://www.notion.so/collabogate/UNiD-Network-1113de045f2547bfb134757ce505361c).
-
-UNiD network also serves a SDS \(Secure Data Storage\) storing encrypted verifiable credentials and presentations in a secure and privacy-preserving manner. UNiD SDS has authentication mechanisms to verify all requests with DID signature and pre-configured tenant token and authorization mechanisms to grant access to third parties.
+{% page-ref page="unid-network.md" %}
 

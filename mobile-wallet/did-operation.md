@@ -22,8 +22,6 @@ import { UNiD, KeyRingType } from '@unid/react-native-sdk';
             KeyRingType.Mnemonic,
             { length: 24 }
         );
-        // After registering new DID on UNiD network,
-        // you can get an identifier.
         console.log('complete generating a DID:', await DID.getIdentifier());
     } catch (err) {
         console.error('ERROR:', err);

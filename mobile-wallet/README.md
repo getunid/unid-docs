@@ -1,18 +1,18 @@
 # Mobile Wallet
 
-## Introduction
+## ✨ Introduction
 
 On this page, we get you up and running with UNiD SDK, so that it will build a wallet which provides storage of cryptographic keys, credentials, and secrets on a mobile device.
 
-{% hint style="info" %}
-At the moment, we support React Native SDKs and iOS Native Layer for building mobile wallet.
+{% hint style="success" %}
+🧠 **NOTE**: ****At the moment, we support React Native SDKs and iOS Native Layer for building mobile wallet.
 {% endhint %}
 
-## Getting Started with React Native SDKs
+## 👨💻 Getting Started With React Native SDK
 
-UNiD React Native SDK offers easy-to-use javascript modules for embedding identity wallet capabilities such as DID operations, VC operations, and DID communications through the underlying UNiD Core APIs and Drivers.
+UNiD React Native SDK offers easy-to-use javascript modules for embedding wallet capabilities such as DID operations, VC operations, and DID communications through the underlying UNiD Core and Drivers.
 
-**Prerequisites**
+### **Prerequisites**
 
 Before we begin, make sure you have the following installed:
 
@@ -20,10 +20,10 @@ Before we begin, make sure you have the following installed:
 * `npm v6.13.x or later`
 
 {% hint style="warning" %}
-If you don't already have an account and UNiD tenant established, head over [here](https://docs.getunid.io), then return to this page.
+🧠 **NOTE**: If you don't already have an account and UNiD project established, head over to [getunid.io](https://docs.getunid.io), then return to this page.
 {% endhint %}
 
-## Install
+## ⬇ Install
 
 Add the `@unid/react-native-sdk` dependency:
 
@@ -73,13 +73,19 @@ After you've completed setting up a tenant and a wallet application in UNiD, UNi
 {% tabs %}
 {% tab title="TypeScript" %}
 ```typescript
-import { UNiD } from "@unid/react-native-sdk";
+import { UNiD } from '@unid/react-native-sdk';
 
-UNiD.init({
-    client_id: "client_id_token",
-    client_secret: "client_secret_token",
-    env_network: "testnet"
-});
+(async () => {
+    try {
+        UNiD.init({
+            clientId: 'client_id_token',
+            clientSecret: 'client_secret_token',
+            envNetwork: 'testnet'
+        });
+    } catch (err) {
+        console.error('ERROR:', err);
+    };
+})()
 ```
 {% endtab %}
 {% endtabs %}

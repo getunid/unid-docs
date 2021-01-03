@@ -43,7 +43,7 @@ DIDComm is a cross-community standard that creates libraries and design patterns
 
 For the wallet to communicate with relying parties \(RP\) on secure authenticated channel. The below diagram illustrate the sign-in flow and steps taken to verify a user through their user agent from the wallet side of the webpage to the server side of a RP.
 
-![DID Auth Protocol Flow](../.gitbook/assets/did-authN-protocol.png)
+![DID Auth Protocol Flow](../.gitbook/assets/did-authN-protocol%20%281%29.png)
 
 * [DID.generateAuthenticationRequest\(\)](unid-core.md): To create an authentication request with `requiredCredentialTypes` \(step.2\).
 * [UNiD.validateAuthenticationRequest\(\)](unid-core.md): To validate an authentication request \(step.5\).

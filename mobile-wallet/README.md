@@ -54,7 +54,7 @@ The following changes will be performed:
 
 After you've completed setting up a tenant and a wallet application in UNiD, UNiD will give you values: `client_id` and `client_secret`. These values are used for authorization when the wallet communicates with relying parties and SDS endpoints.
 
-```ts
+```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
 UNiD.init({
@@ -65,3 +65,4 @@ UNiD.init({
 ```
 
 Great! Now that you've completed setting up React Native SDK. You can step forward to [Generate New DID](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/wallet/1-did-operation/README.md).
+

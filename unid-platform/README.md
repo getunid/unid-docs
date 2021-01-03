@@ -12,25 +12,25 @@ As in the diagram below, our platform consists of four components: **UNiD SDKs**
 
 **UNiD Drivers** pre-configured integrations to our platform that support fundamental capabilities. UNiD Core are designed as a set of APIs for communicating with UNiD network and drivers and used through UNiD SDKs to easily incorporate these capabilities into your application.
 
-### UNiD Core
+## UNiD Core
 
 UNiD Core consists of a set of modules and APIs that support core functions such as DID operations, VC operations, and DID communications. UNiD SDKs and extension tools are built on the top of it.
 
 {% page-ref page="unid-core.md" %}
 
-### UNiD Drivers
+## UNiD Drivers
 
 The UNiD Drivers are pre-configured integrations to our platform that support DID methods, key management, crypto primitives, and tenant model. The drivers are pluggable for preventing vendor lock-in and enabling users choices without compromising security.
 
 {% page-ref page="unid-driver.md" %}
 
-### UNiD SDKs
+## UNiD SDKs
 
 The UNiD SDKs offer convenient and easy-to-access application logic to build solutions and integrate with digital services that exist out of our platform. UNiD extension tools support the features such as DID AuthN and VC Data Schema that are strongly dependent on each use case and are outside scope of UNiD Core and Drivers.
 
 {% page-ref page="unid-sdk.md" %}
 
-### UNiD Network
+## UNiD Network
 
 UNiD network consists of primary components of a DID overlay network:
 

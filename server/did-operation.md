@@ -3,7 +3,9 @@ title: DID Operations
 description: description
 ---
 
-# did-operation
+# DID Operations
+
+## Introduction
 
 UNiD Core supports a variety of DID operations, all of which require the DID owner to generate specific data values and cryptographic material. This page below describe how to perform each type of operation.
 

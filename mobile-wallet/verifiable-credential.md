@@ -3,7 +3,7 @@ title: VC Operations
 description: description
 ---
 
-# verifiable-credential
+# VC Operations
 
 On this page, we will demonstrate how to create a verifiable credential in a JSON-LD format adhering to the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/).
 
@@ -26,6 +26,8 @@ Now let's create an [AddressCredentialV1](https://github.com/getunid/unid-docs/t
 
 **DID.createCredential\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
@@ -61,6 +63,8 @@ import { UNiD } from "@unid/react-native-sdk";
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 In UNiD network, we ensure interoperability by referring to the VC data schema defined [here](../schemas/). If you want to generate a new type of VC schema that is not in the UNiD VC schema list, you can request it. For more information, see [Request VC schema](https://github.com/getunid/unid-docs/tree/8515a1dcda076b9bea8d6e6e6b7eed90e22ae0d3/tutorial/3-howtorequestvcschema/README.md).
 
@@ -72,6 +76,8 @@ The wallet can securely access authorized SDS endpoints. The VCs are always encr
 
 **DID.postCredential\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk"
 
@@ -87,6 +93,8 @@ import { UNiD } from "@unid/react-native-sdk"
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 UNiD SDS validate every requests to see if the wallet is authorized to access the SDS and if the request has been tampered with.
 
@@ -98,6 +106,8 @@ The wallet can fetch the newest record using `type`, `issuer_did`, and `issuance
 
 **DID.getCredential\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk"
 
@@ -120,11 +130,15 @@ import { UNiD } from "@unid/react-native-sdk"
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 To get all applicable credentials with options of DID.getCredentials:
 
 **DID.getCredentials\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
@@ -149,11 +163,15 @@ import { UNiD } from "@unid/react-native-sdk";
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 After getting credentials, they will be packaged in verifiable presentation with `VerifiablePresentation` type and the value of the proof property.
 
 **DID.createPresentation\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
@@ -169,6 +187,8 @@ import { UNiD } from "@unid/react-native-sdk";
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Submit VP to Verifier
 
@@ -180,6 +200,8 @@ The wallet verifies the digital signature of the VC from an issuer.
 
 **UNiD.validatePresentation\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk"
 
@@ -192,9 +214,13 @@ import { UNiD } from "@unid/react-native-sdk"
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 **UNiD.validateCredential\(\)**
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
 import { UNiD } from "@unid/react-native-sdk"
 
@@ -207,4 +233,6 @@ import { UNiD } from "@unid/react-native-sdk"
     }
 })()
 ```
+{% endtab %}
+{% endtabs %}
 

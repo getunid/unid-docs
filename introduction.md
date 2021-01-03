@@ -4,7 +4,7 @@
 
 Digital Identity is the front door of every user interactions in digital world. As digital transformation accelerates in all industries, it is necessary to build solutions on common standards for security and privacy in order to communicate smoothly online.
 
-However, the traditional identity systems today are fragmented, insecure, and do not have sufficient functionality to verify whether the data transferred is reliable in human social activity. For example, when using digital services, we are always required to create accounts and store a small part of our digital identity in the databases of these service providers. Consequently, digital identities become fragmented and locked into numerous different databases controlled by multiple external third parties.
+The traditional identity systems today are fragmented, insecure, and do not have sufficient functionality to verify whether the data transferred is reliable in human social activity. For example, when using digital services, we are always required to create accounts and store a small part of our digital identity in the databases of these service providers. Consequently, digital identities become fragmented and locked into numerous different databases controlled by multiple external third parties.
 
 Therefore, the service providers are suffering from high operating costs such as processing, verifying, and sharing data. Additionally, as long as they retain personal identifiable information are incredibly appealing to hackers, they must continue to pay for security and privacy protection, which have become increasingly responsible in recent year.
 
@@ -20,7 +20,7 @@ The roles of the core actors and the relationships between them in an ecosystem 
 
 ![DID Ecosystem Overview](.gitbook/assets/did-map.png)
 
-[UNiD Platform](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/unid/README.md) provides tools that enable fundamental capabilities such as DID operations, VC operations, and data exchange in a secure and privacy-preserving manner.
+UNiD Platform provides the fundamental capabilities for operating DIDs, verifiable credentials, and store and exchange encrypted data in a privacy-preserving way.
 
 {% page-ref page="unid-platform/" %}
 

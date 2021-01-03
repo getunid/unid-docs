@@ -3,7 +3,7 @@ title: DID AuthN
 description: description
 ---
 
-# did-auth
+# DID AuthN
 
 ## DID AuthN
 
@@ -22,7 +22,9 @@ In step 5 of the diagram, the wallet receives an authN request from the RP. The 
 
 **UNiD.validateAuthenticationRequest\(\)**
 
-```javascript
+{% tabs %}
+{% tab title="TypeScript" %}
+```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
 (async () => {
@@ -35,6 +37,8 @@ import { UNiD } from "@unid/react-native-sdk";
     };
 })()
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Generate DID AuthN Response
 
@@ -42,7 +46,9 @@ In step 6 of the diagram, the wallet creates a DID AuthN response signed by the 
 
 **DID.generateAuthenticationResponse\(\)**
 
-```javascript
+{% tabs %}
+{% tab title="TypeScript" %}
+```typescript
 import { UNiD } from "@unid/react-native-sdk";
 
 (async () => {
@@ -59,4 +65,6 @@ import { UNiD } from "@unid/react-native-sdk";
     };
 })()
 ```
+{% endtab %}
+{% endtabs %}
 

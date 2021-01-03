@@ -3,7 +3,9 @@ title: VC Operations
 description: description
 ---
 
-# verifiable-credential
+# VC Operations
+
+## Introduction
 
 On this page, we will demonstrate how to issue and verify a verifiable credential in a JSON-LD format adhering to the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/).
 

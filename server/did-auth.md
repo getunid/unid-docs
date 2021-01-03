@@ -3,9 +3,9 @@ title: DID AuthN
 description: description
 ---
 
-# did-auth
+# DID AuthN
 
-## DID AuthN
+## Introduction
 
 For the application server to communicate with identity wallet on secure authenticated channel, UNiD Node SDKs provide methods of:
 

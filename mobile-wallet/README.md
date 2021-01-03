@@ -1,27 +1,39 @@
 # Mobile Wallet
 
-On this page, we get you up and running with UNiD SDK, so that it will build a wallet which provides storage of cryptographic keys, credentials, and secrets on a mobile device. At the moment, we support React Native SDK.
+## ✨ Introduction
 
-## React Native
+On this page, we get you up and running with UNiD SDK, so that it will build a wallet which provides storage of cryptographic keys, credentials, and secrets on a mobile device.
 
-UNiD React Native SDK offers easy-to-use javascript modules for embedding identity wallet capabilities such as DID operations, VC operations, and DID communications through the underlying UNiD Core APIs and Drivers.
+{% hint style="success" %}
+🧠 **NOTE**: ****At the moment, we support React Native SDKs and iOS Native Layer for building mobile wallet.
+{% endhint %}
 
-**Prerequisites**
+## 👨💻 Getting Started With React Native SDK
+
+UNiD React Native SDK offers easy-to-use javascript modules for embedding wallet capabilities such as DID operations, VC operations, and DID communications through the underlying UNiD Core and Drivers.
+
+### **Prerequisites**
 
 Before we begin, make sure you have the following installed:
 
 * `Node.js v10.x or later`
 * `npm v6.13.x or later`
 
-If you don't already have an account and UNiD tenant established, head over to [here](https://docs.getunid.io), then return to this page.
+{% hint style="warning" %}
+🧠 **NOTE**: If you don't already have an account and UNiD project established, head over to [getunid.io](https://docs.getunid.io), then return to this page.
+{% endhint %}
 
-## Install
+## ⬇ Install
 
 Add the `@unid/react-native-sdk` dependency:
 
+{% tabs %}
+{% tab title="Bash" %}
 ```bash
 npm install --save @unid/react-native-sdk
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Linking
 
@@ -29,12 +41,16 @@ Since our SDKs also support a local authentication and key management at OS nati
 
 Above `react-native >= 0.60` you need to do:
 
+{% tabs %}
+{% tab title="Bash" %}
 ```bash
 npx @unid/wizard -i reactNative -p ios
 
 cd ios
 pod install
 ```
+{% endtab %}
+{% endtabs %}
 
 Since React Native SDKs support `auto-linking` and iOS relies on CocoaPods, you need to install dependencies. If you are running a project with `react-native < 0.60` you still need to call `react-native link`.
 
@@ -46,23 +62,35 @@ The link step or the `unid-wizard` call with patch your project accordingly. The
 
 The following changes will be performed:
 
-* add the unid-cocoa package for native local authentication and key management on iOS
-* configure UNiD for the supplied DSN in your _**index.js/App.js**_ files
-* store build credentials in _**ios/unid.properties**_.
+* add the `unid-cocoa` package for native local authentication and key management on iOS
+* configure UNiD for the supplied DSN in your `index.js/App.js` files
+* store build credentials in `ios/unid.properties`
 
 ## Configure
 
 After you've completed setting up a tenant and a wallet application in UNiD, UNiD will give you values: `client_id` and `client_secret`. These values are used for authorization when the wallet communicates with relying parties and SDS endpoints.
 
+{% tabs %}
+{% tab title="TypeScript" %}
 ```typescript
-import { UNiD } from "@unid/react-native-sdk";
+import { UNiD } from '@unid/react-native-sdk';
 
-UNiD.init({
-    client_id: "client_id_token",
-    client_secret: "client_secret_token",
-    env_network: "testnet"
-});
+(async () => {
+    try {
+        UNiD.init({
+            clientId: 'client_id_token',
+            clientSecret: 'client_secret_token',
+            envNetwork: 'testnet'
+        });
+    } catch (err) {
+        console.error('ERROR:', err);
+    };
+})()
 ```
+{% endtab %}
+{% endtabs %}
 
-Great! Now that you've completed setting up React Native SDK. You can step forward to [Generate New DID](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/wallet/1-did-operation/README.md).
+Great! Now that you've completed setting up React Native SDKs. You can step forward to Generate DID Operation.
+
+{% page-ref page="did-operation.md" %}
 

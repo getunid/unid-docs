@@ -55,8 +55,11 @@ Our platform is composed of a collection of micro services, allowing developers 
 * Travel
 * Government
 
-We are currently working on joint projects with leading companies in each industry to connect the world with digital trust. [Click here for more info](https://collabogate.com)
+{% hint style="info" %}
+We are currently working on joint projects with leading companies in each industry to connect the world with digital trust → [Click here for more info](https://collabogate.com)
+{% endhint %}
 
 ## Contact
 
 * [Click here](https://github.com/getunid/unid-docs/issues/new/choose) for `bug report` and `feature request` regarding the contents of this document. Thanks for your feedback to help us to improve.
+

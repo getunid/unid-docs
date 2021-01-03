@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Introduction](Introduction.md)
 * [Introduction](introduction.md)
 * [UNiD Platform](unid-platform/README.md)
   * [UNiD Core](unid-platform/unid-core.md)
@@ -23,3 +24,4 @@
   * [name](schemas/name.md)
   * [phone](schemas/phone.md)
   * [qualification](schemas/qualification.md)
+

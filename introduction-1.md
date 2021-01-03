@@ -60,3 +60,4 @@ Our platform is composed of a collection of micro services, allowing developers 
 {% hint style="success" %}
 🧠 **NOTE**: We are currently working on joint projects with leading companies in each industry to connect the world with digital trust → [Click here for more info](https://collabogate.com)
 {% endhint %}
+

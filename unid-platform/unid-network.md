@@ -14,9 +14,7 @@ UNiD network consists of primary components of a DID overlay network:
 
 If you want to see how to operate and resolve DIDs on UNiD network, please [click here for more info](https://www.notion.so/collabogate/UNiD-Network-1113de045f2547bfb134757ce505361c).
 
-UNiD network also serves a SDS \(Secure Data Storage\) storing encrypted verifiable credentials and presentations in a secure and privacy-preserving manner. UNiD SDS has authentication mechanisms to verify all requests with DID signature and pre-configured tenant token and authorization mechanisms to grant access to third parties.
-
 ## Secure Data Storage
 
-
+UNiD network also serves a SDS \(Secure Data Storage\) storing encrypted verifiable credentials and presentations in a secure and privacy-preserving manner. UNiD SDS has authentication mechanisms to verify all requests with DID signature and pre-configured tenant token and authorization mechanisms to grant access to third parties.
 

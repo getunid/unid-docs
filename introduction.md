@@ -62,4 +62,3 @@ We are currently working on joint projects with leading companies in each indust
 ## Contact
 
 * [Click here](https://github.com/getunid/unid-docs/issues/new/choose) for `bug report` and `feature request` regarding the contents of this document. Thanks for your feedback to help us to improve.
-

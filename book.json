@@ -12,7 +12,8 @@
     "plugins": ["katex"],
 
     "structure": {
-        "readme": "Introduction.md"
+        "readme": "Introduction.md",
+        "summary": "SUMMARY.md"
     },
 
     "pluginsConfig": {

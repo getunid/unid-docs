@@ -22,8 +22,6 @@ The roles of the core actors and the relationships between them in an ecosystem 
 
 [UNiD Platform](https://github.com/getunid/unid-docs/tree/a0e3cb7501479628b5df9b10630e3f29c181f7b2/unid/README.md) provides tools that enable fundamental capabilities such as DID operations, VC operations, and data exchange in a secure and privacy-preserving manner.
 
-{% page-ref page="unid-platform/" %}
-
 ## Use Cases
 
 ### Intro to a digital student wallet
